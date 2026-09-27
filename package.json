@@ -1,0 +1,13 @@
+{
+  "name": "linkup-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LinkUp server for Render",
+  "main": "DnsServer.js",
+  "scripts": {
+    "start": "node DnsServer.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

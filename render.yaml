@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: linkup
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ENABLE_DNS
+        value: "false"
+      - key: ENABLE_LBP3_TCP
+        value: "false"
+      - key: ENABLE_LBP3_SERVICE
+        value: "false"
